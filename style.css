@@ -1,0 +1,314 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body
+{
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* input section */
+input
+{
+    height: 3.5vh;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    margin: auto;
+    padding: 7px;
+    margin-top: 10px;
+    position: sticky;
+    top: 1vh;
+    z-index: 2;
+}
+
+input:hover
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    border: 1px solid white;
+}
+/* first divv */
+
+
+.fst
+{
+    width: 100%;
+    height: 10vh;
+    z-index: 1;
+    position: relative;
+   
+}
+
+/* logo */
+
+#apkly
+{
+    clear: right;
+    position:absolute;
+    top: 3vh;
+    left: 18vh;
+    background-color: #e68a00;
+    color: white;
+    padding: 5px;
+
+}
+#apkly:hover
+{
+    color: #e68a00;
+    background-color: white;
+}
+
+/* btnnnn */
+a{
+    margin-right: 60px;
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    color: lightgrey;
+}
+
+/* six btnnn */
+.sixbtn
+{
+    float: right;
+    margin:4vh;
+}
+
+/* homee */
+#home
+{
+    color:#e68a00;
+}
+
+/* sign up btnn */
+#signup
+{
+    background-color: white;
+    color: #e68a00;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#signup:hover
+{
+    color: white;
+    background-color: #e68a00;
+}
+
+/* second divv */
+.secnd
+{
+    height: 80vh;
+    width: 100%;
+    color: white;
+    z-index: 1;
+}
+/* paragraph h1 & h4 */
+.phh
+{
+    width: fit-content;
+    clear: right;
+    position: relative;
+    top: 20vh;
+    left: 30vh;
+}
+h1
+{
+    margin-bottom: 10px;
+    font-size: 70px;
+    color: #e68a00;
+}
+h4
+{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+p
+{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: lightgray;
+}
+
+#get
+{
+    display: flex;
+    margin-top:20px;
+    background-color: #e68a00;
+    width: fit-content;
+    padding: 5px;
+    border-radius:20px;
+}
+#get:hover
+{
+    color: #e68a00;
+    background-color: white;
+}
+
+/* image */
+img
+{
+    height: auto;
+    float: right;
+    position: relative;
+    right: 30vh;
+    bottom: 18vh;
+}
+
+footer
+{
+    background-color: white;
+    height: 50vh;
+    color: gray;
+}
+
+.fotr
+{
+    color: black;
+    background-color: white;
+    padding: 30px;
+    border-bottom: 1px solid #e68a00; 
+    box-shadow: 0px 0px 9px gray;
+}
+.fotr:hover
+{
+    transform: rotateY(0) scale(1.1);
+}
+i
+{
+    float: left;
+    color: red;
+    font-size:20px;
+    position: relative;
+    top: 12px;
+    right: 5px;
+   
+
+}
+.fotr--fstdiv
+{
+
+    float: left;
+    width: fit-content;
+    position: relative;
+    top: 15vh;
+    left: 25vh;
+}
+.fotr--scnddiv
+{
+    float: right;
+    width: fit-content;
+    position: relative;
+    top: 15vh;
+    left: 25vh;
+}
+
+.fotrr
+{
+    font-size: 40px;
+    color: black;
+}
+hr
+{
+    width: 10vh;
+    margin-bottom: 2vh;
+}
+.pp
+{
+    color: gray;
+}
+span
+{
+   color:#e68a00;
+}
+
+
+/* Responsib */
+
+
+@media (max-width:425px)
+{
+    body
+    {
+        width: 100%;
+    }
+    input
+    {
+        width: 70%;
+    }
+    .fst
+    {
+        height: 10vh;
+        width: 100%;
+        margin-top: 10px;
+        background-color: green;
+        font-size: 10px;
+    }
+    #apkly
+
+    {
+        float: left;
+    }
+    img
+    {
+        width: 30vh;
+        height: 50vh;
+    }
+    .secnd
+    {
+        background-color: antiquewhite;
+        width: 100%;
+    }
+    .phh
+    {
+        width: fit-content;
+        clear: left;
+        position: relative;
+        top: 70vh;
+        left: 0;
+    }
+    
+    footer
+    {
+        width: 100%;
+        height: 100vh;
+    }
+    .fotrr
+    {
+        font-size: 25px;
+    }
+    p
+    {
+        font-size: 10px;
+    }
+    .fotr
+    {
+        width: 25vh;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: inherit;
+        margin-top: 70px;
+    }
+    .fotr--fstdiv
+    {
+        position: relative;
+        top: 0px;
+        left: 100px;
+        
+    }
+    .fotr--scnddiv
+    {
+        
+       margin-right: 107px;
+    }
+
+}
